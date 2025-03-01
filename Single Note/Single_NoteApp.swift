@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 @main
 struct Single_NoteApp: App {
@@ -26,8 +27,21 @@ class AppDeletage : NSObject, ObservableObject, NSApplicationDelegate {
     // properties
     @Published var statusItem: NSStatusItem?
     @Published var popover = NSPopover()
+    
+    var noteData = NoteData()
+    var cancellables = Set<AnyCancellable>()
+    
     func applicationDidFinishLaunching(_ notification: Notification) {
         setupMacMenu()
+        
+        noteData.$userInput
+                    .receive(on: RunLoop.main)
+                    .sink { [weak self] newText in
+                        if let button = self?.statusItem?.button {
+                            button.title = newText
+                        }
+                    }
+                    .store(in: &cancellables)
     }
     
     func setupMacMenu() {
@@ -35,9 +49,11 @@ class AppDeletage : NSObject, ObservableObject, NSApplicationDelegate {
         popover.animates = true
         popover.behavior = .transient
         
+        let homeView = Home().environmentObject(noteData)
+        
         // connect swiftui view
         popover.contentViewController = NSViewController()
-        popover.contentViewController?.view = NSHostingView(rootView: Home())
+        popover.contentViewController?.view = NSHostingView(rootView: homeView)
         
         // make it as key window
         popover.contentViewController?.view.window?.makeKey()
@@ -46,6 +62,7 @@ class AppDeletage : NSObject, ObservableObject, NSApplicationDelegate {
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         if let menuButton = statusItem?.button {
             menuButton.image = .init(systemSymbolName: "square.and.pencil", accessibilityDescription: nil)
+            menuButton.title = noteData.userInput
             menuButton.action = #selector(menuButtonAction(sender:))
         }
     }
@@ -62,3 +79,7 @@ class AppDeletage : NSObject, ObservableObject, NSApplicationDelegate {
     }
 }
 
+// sharing userInput
+class NoteData: ObservableObject {
+    @Published var userInput: String = ""
+}
