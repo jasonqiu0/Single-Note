@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		144FAFF02D733057009F0F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144FAFD62D733057009F0F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144FAFDD2D733057009F0F07;
+			remoteInfo = "Single Note";
+		};
+		144FAFFA2D733057009F0F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144FAFD62D733057009F0F07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144FAFDD2D733057009F0F07;
+			remoteInfo = "Single Note";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144FAFDE2D733057009F0F07 /* Single Note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Single Note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144FAFEF2D733057009F0F07 /* Single NoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Single NoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		144FAFF92D733057009F0F07 /* Single NoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Single NoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		144FAFE02D733057009F0F07 /* Single Note */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Single Note";
+			sourceTree = "<group>";
+		};
+		144FAFF22D733057009F0F07 /* Single NoteTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Single NoteTests";
+			sourceTree = "<group>";
+		};
+		144FAFFC2D733057009F0F07 /* Single NoteUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Single NoteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		144FAFDB2D733057009F0F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FAFEC2D733057009F0F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FAFF62D733057009F0F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144FAFD52D733057009F0F07 = {
+			isa = PBXGroup;
+			children = (
+				144FAFE02D733057009F0F07 /* Single Note */,
+				144FAFF22D733057009F0F07 /* Single NoteTests */,
+				144FAFFC2D733057009F0F07 /* Single NoteUITests */,
+				144FAFDF2D733057009F0F07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		144FAFDF2D733057009F0F07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				144FAFDE2D733057009F0F07 /* Single Note.app */,
+				144FAFEF2D733057009F0F07 /* Single NoteTests.xctest */,
+				144FAFF92D733057009F0F07 /* Single NoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		144FAFDD2D733057009F0F07 /* Single Note */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144FB0032D733057009F0F07 /* Build configuration list for PBXNativeTarget "Single Note" */;
+			buildPhases = (
+				144FAFDA2D733057009F0F07 /* Sources */,
+				144FAFDB2D733057009F0F07 /* Frameworks */,
+				144FAFDC2D733057009F0F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				144FAFE02D733057009F0F07 /* Single Note */,
+			);
+			name = "Single Note";
+			packageProductDependencies = (
+			);
+			productName = "Single Note";
+			productReference = 144FAFDE2D733057009F0F07 /* Single Note.app */;
+			productType = "com.apple.product-type.application";
+		};
+		144FAFEE2D733057009F0F07 /* Single NoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144FB0062D733057009F0F07 /* Build configuration list for PBXNativeTarget "Single NoteTests" */;
+			buildPhases = (
+				144FAFEB2D733057009F0F07 /* Sources */,
+				144FAFEC2D733057009F0F07 /* Frameworks */,
+				144FAFED2D733057009F0F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144FAFF12D733057009F0F07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				144FAFF22D733057009F0F07 /* Single NoteTests */,
+			);
+			name = "Single NoteTests";
+			packageProductDependencies = (
+			);
+			productName = "Single NoteTests";
+			productReference = 144FAFEF2D733057009F0F07 /* Single NoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		144FAFF82D733057009F0F07 /* Single NoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144FB0092D733057009F0F07 /* Build configuration list for PBXNativeTarget "Single NoteUITests" */;
+			buildPhases = (
+				144FAFF52D733057009F0F07 /* Sources */,
+				144FAFF62D733057009F0F07 /* Frameworks */,
+				144FAFF72D733057009F0F07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144FAFFB2D733057009F0F07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				144FAFFC2D733057009F0F07 /* Single NoteUITests */,
+			);
+			name = "Single NoteUITests";
+			packageProductDependencies = (
+			);
+			productName = "Single NoteUITests";
+			productReference = 144FAFF92D733057009F0F07 /* Single NoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		144FAFD62D733057009F0F07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					144FAFDD2D733057009F0F07 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					144FAFEE2D733057009F0F07 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 144FAFDD2D733057009F0F07;
+					};
+					144FAFF82D733057009F0F07 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 144FAFDD2D733057009F0F07;
+					};
+				};
+			};
+			buildConfigurationList = 144FAFD92D733057009F0F07 /* Build configuration list for PBXProject "Single Note" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 144FAFD52D733057009F0F07;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 144FAFDF2D733057009F0F07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				144FAFDD2D733057009F0F07 /* Single Note */,
+				144FAFEE2D733057009F0F07 /* Single NoteTests */,
+				144FAFF82D733057009F0F07 /* Single NoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		144FAFDC2D733057009F0F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FAFED2D733057009F0F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FAFF72D733057009F0F07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		144FAFDA2D733057009F0F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FAFEB2D733057009F0F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144FAFF52D733057009F0F07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		144FAFF12D733057009F0F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 144FAFDD2D733057009F0F07 /* Single Note */;
+			targetProxy = 144FAFF02D733057009F0F07 /* PBXContainerItemProxy */;
+		};
+		144FAFFB2D733057009F0F07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 144FAFDD2D733057009F0F07 /* Single Note */;
+			targetProxy = 144FAFFA2D733057009F0F07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		144FB0012D733057009F0F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		144FB0022D733057009F0F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		144FB0042D733057009F0F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Single Note/Single_Note.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Single Note/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Single-Note";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		144FB0052D733057009F0F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Single Note/Single_Note.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Single Note/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Single-Note";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		144FB0072D733057009F0F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Single-NoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Single Note.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Single Note";
+			};
+			name = Debug;
+		};
+		144FB0082D733057009F0F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Single-NoteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Single Note.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Single Note";
+			};
+			name = Release;
+		};
+		144FB00A2D733057009F0F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Single-NoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Single Note";
+			};
+			name = Debug;
+		};
+		144FB00B2D733057009F0F07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Single-NoteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Single Note";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		144FAFD92D733057009F0F07 /* Build configuration list for PBXProject "Single Note" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144FB0012D733057009F0F07 /* Debug */,
+				144FB0022D733057009F0F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144FB0032D733057009F0F07 /* Build configuration list for PBXNativeTarget "Single Note" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144FB0042D733057009F0F07 /* Debug */,
+				144FB0052D733057009F0F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144FB0062D733057009F0F07 /* Build configuration list for PBXNativeTarget "Single NoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144FB0072D733057009F0F07 /* Debug */,
+				144FB0082D733057009F0F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144FB0092D733057009F0F07 /* Build configuration list for PBXNativeTarget "Single NoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144FB00A2D733057009F0F07 /* Debug */,
+				144FB00B2D733057009F0F07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 144FAFD62D733057009F0F07 /* Project object */;
+}
